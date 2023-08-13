@@ -1,0 +1,44 @@
+#showcase{
+    position: relative;
+    height: 100vh;
+}
+#showcaseImage{
+    height: 100vh;
+    background: url(../images/pexels-pixabay-35550.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    
+}
+#showcaseContent{
+    position :absolute;
+    background: rgba(0, 0, 0, 0.491);
+    width: 100%;
+    color: #fff;
+}
+
+#showcase .container .col-4{
+    display: flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color:white;
+
+}
+#showcase h2{
+    font-size: 70px;
+}
+@media screen and (max-width: 768px) {
+    .content{
+        margin-left: 30%;
+    }
+    
+}
